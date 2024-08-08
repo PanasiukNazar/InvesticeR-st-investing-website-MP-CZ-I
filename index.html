@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>InvesticeRůst</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid topbar bg-secondary d-none d-xl-block w-100"
+        >
+            <div class="container">
+                <div class="row gx-0 align-items-center" style="height: 45px">
+                    <div class="col-lg-12 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"
+                                ><i
+                                    class="fas fa-map-marker-alt text-primary me-2"
+                                ></i
+                                >Českých bratří, 533 04 Sezemice, Czech</a
+                            >
+                            <a href="tel:+01234567890" class="text-muted me-4"
+                                ><i
+                                    class="fas fa-phone-alt text-primary me-2"
+                                ></i
+                                >+420739044666</a
+                            >
+                            <a
+                                href="mailto:example@gmail.com"
+                                class="text-muted me-0"
+                                ><i
+                                    class="fas fa-envelope text-primary me-2"
+                                ></i
+                                >investice_růst@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div
+            class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0"
+        >
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="display-6 text-primary">InvesticeRůst</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto py-0">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Domů</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >O nás</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Služby</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Reference</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Kontakt</a
+                            >
+                        </div>
+                        <a
+                            href="contact.html"
+                            class="btn btn-primary rounded-pill py-2 px-4"
+                            >Začněte</a
+                        >
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel">
+            <div
+                id="carouselId"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="false"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="First slide"
+                    ></li>
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="1"
+                        aria-label="Second slide"
+                    ></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="img/carousel-2.jpg"
+                            class="img-fluid w-100"
+                            alt="First slide"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container py-4">
+                                <div class="row g-5">
+                                    <div
+                                        class="col-lg-6 d-none d-lg-flex fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                    >
+                                        <div class="text-start">
+                                            <h1 class="display-5 text-white">
+                                                Potenciál Blockchainu a
+                                                Kryptoměn
+                                            </h1>
+                                            <p>
+                                                V dnešní době se blockchain a
+                                                kryptoměny stávají stále
+                                                významnějšími oblastmi
+                                                investičních příležitostí.
+                                                Potenciál blockchainu v oblasti
+                                                zabezpečení a transparentnosti
+                                                transakcí otevírá nové možnosti
+                                                pro investory hledající
+                                                inovativní přístupy. Kryptoměny
+                                                pak nabízejí možnost vysokého
+                                                zhodnocení investic, přičemž
+                                                jejich potenciál neustále roste.
+                                                Naučte se, jak správně využít
+                                                tyto moderní technologie a
+                                                přizpůsobit své Czechinvestiční
+                                                rozhodnutí tak, aby odpovídala
+                                                současným trendům.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="img/carousel-1.jpg"
+                            class="img-fluid w-100"
+                            alt="First slide"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container py-4">
+                                <div class="row g-5">
+                                    <div
+                                        class="col-lg-6 d-none d-lg-flex fadeInRight animated"
+                                        data-animation="fadeInRight"
+                                        data-delay="1s"
+                                        style="animation-delay: 1s"
+                                    >
+                                        <div class="text-start">
+                                            <h1 class="display-5 text-white">
+                                                Automatizované Obchodování a
+                                                Bezriziková Investice
+                                            </h1>
+                                            <p>
+                                                Automatizované obchodování se
+                                                stává stále populárnější díky
+                                                své schopnosti minimalizovat
+                                                lidskou chybu a optimalizovat
+                                                obchodní strategie. Tato metoda
+                                                využívá pokročilé algoritmy pro
+                                                řízení investičních portfolií,
+                                                což může vést k bezrizikové
+                                                investici s vysokým potenciálem
+                                                návratnosti. Objevte, jak můžete
+                                                využít automatizované
+                                                obchodování k dosažení svých
+                                                investičních cílů a zajistit,
+                                                aby vaše investiční rozhodnutí
+                                                byla efektivní a dobře
+                                                informovaná.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h1 class="display-5 text-capitalize mb-3">
+                        Investujte s Důvěrou
+                        <span class="text-primary">a Znalostí</span>
+                    </h1>
+                    <p class="mb-0">
+                        Naše investiční strategie jsou navrženy tak, aby vám
+                        poskytly nejlepší možné výsledky v dynamickém světě
+                        financí. Díky naší odbornosti a analýzám dokážeme
+                        efektivně využívat moderní technologie a přístupy k
+                        investování. Naše služby vám pomohou činit informovaná
+                        Czechinvestiční rozhodnutí, která maximalizují váš zisk
+                        a minimalizují rizika. Připojte se k nám a objevte, jak
+                        můžete využít potenciál blockchainu a potenciál
+                        kryptoměn k dosažení vašich investičních cílů.
+                    </p>
+                </div>
+                <div class="row g-4 align-items-center">
+                    <div class="col-xl-4">
+                        <div class="row gy-4 gx-0">
+                            <div
+                                class="col-12 wow fadeInUp"
+                                data-wow-delay="0.1s"
+                            >
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <span class="fa fa-trophy fa-2x"></span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <h5 class="mb-3">
+                                            Optimalizace Investic
+                                        </h5>
+                                        <p class="mb-0">
+                                            Využíváme pokročilé algoritmy a
+                                            technologie automatizovaného
+                                            obchodování k optimalizaci vašich
+                                            investic. To znamená, že vaše
+                                            investiční rozhodnutí jsou rychlá,
+                                            přesná a přizpůsobená aktuálním
+                                            tržním podmínkám.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 wow fadeInUp"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <span class="fa fa-road fa-2x"></span>
+                                    </div>
+                                    <div class="ms-4">
+                                        <h5 class="mb-3">
+                                            Inovativní Technologie
+                                        </h5>
+                                        <p class="mb-0">
+                                            Naše strategie zahrnují využití
+                                            potenciálu blockchainu, který nabízí
+                                            vysokou úroveň zabezpečení a
+                                            transparentnosti. Blockchainová
+                                            technologie může výrazně zvýšit
+                                            efektivitu vašich investic a
+                                            ochránit vás před podvody.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-12 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <img
+                            src="img/features-img.png"
+                            class="img-fluid w-100"
+                            style="object-fit: cover"
+                            alt="Img"
+                        />
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="row gy-4 gx-0">
+                            <div
+                                class="col-12 wow fadeInUp"
+                                data-wow-delay="0.1s"
+                            >
+                                <div class="feature-item justify-content-end">
+                                    <div class="text-end me-4">
+                                        <h5 class="mb-3">
+                                            Bezrizikové Možnosti
+                                        </h5>
+                                        <p class="mb-0">
+                                            Nabízíme možnosti, které
+                                            minimalizují rizika a poskytují
+                                            stabilní výnosy. Naše přístupy k
+                                            bezrizikové investici vám umožní
+                                            investovat s větším klidem a
+                                            důvěrou.
+                                        </p>
+                                    </div>
+                                    <div class="feature-icon">
+                                        <span class="fa fa-tag fa-2x"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-12 wow fadeInUp"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="feature-item justify-content-end">
+                                    <div class="text-end me-4">
+                                        <h5 class="mb-3">Růst a Zisk</h5>
+                                        <p class="mb-0">
+                                            Pomocí analýzy potenciálu kryptoměn
+                                            vám pomůžeme identifikovat
+                                            investiční příležitosti, které mohou
+                                            přinést vysoké výnosy. Naše odborné
+                                            znalosti v oblasti kryptoměn vám
+                                            umožní efektivně využívat jejich
+                                            růstový potenciál.
+                                        </p>
+                                    </div>
+                                    <div class="feature-icon">
+                                        <span
+                                            class="fa fa-map-pin fa-2x"
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- About Start -->
+        <div class="container-fluid overflow-hidden about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <div class="pb-5">
+                                <h1 class="display-5 text-capitalize">
+                                    Inovativní a Bezpečné Investiční
+                                    <span class="text-primary"> Strategie</span>
+                                </h1>
+                                <p class="mb-0">
+                                    Naše přístupy k investování jsou navrženy
+                                    tak, aby reflektovaly dynamiku současného
+                                    trhu a technologické pokroky. Věříme, že
+                                    úspěšné investování vyžaduje nejen hluboké
+                                    porozumění trhu, ale i schopnost adaptace na
+                                    nové technologie a trendy. Naším cílem je
+                                    poskytovat našim klientům komplexní a
+                                    efektivní investiční strategie, které
+                                    kombinují tradiční metody s moderními
+                                    přístupy. Automatizované obchodování je
+                                    klíčovým prvkem našeho přístupu. Využíváme
+                                    pokročilé algoritmy a technologie, které nám
+                                    umožňují provádět obchodní rozhodnutí rychle
+                                    a přesně, minimalizovat lidské chyby a
+                                    maximalizovat efektivitu. Tento systém nám
+                                    pomáhá optimalizovat investice a
+                                    přizpůsobovat se rychle se měnícím tržním
+                                    podmínkám. Dalším důležitým prvkem je
+                                    potenciál blockchainu. Tato revoluční
+                                    technologie přináší nové možnosti pro
+                                    zvýšení transparentnosti, zabezpečení a
+                                    efektivity transakcí. Blockchain nám
+                                    umožňuje poskytovat našim klientům
+                                    investiční produkty, které jsou nejen
+                                    inovativní, ale také bezpečné a důvěryhodné.
+                                    Naše strategie také zahrnují využití
+                                    potenciálu kryptoměn. Kryptoměny představují
+                                    jedinečnou příležitost pro investory
+                                    hledající vysoké výnosy a diverzifikaci
+                                    svého portfolia. Na základě našich odborných
+                                    analýz a trendů na trhu vám pomáháme
+                                    identifikovat investiční příležitosti, které
+                                    mohou přinést významné zisky. Důležitou
+                                    součástí našeho přístupu je také zaměření na
+                                    bezrizikové investice. Chápeme, že
+                                    investování může být stresující, a proto se
+                                    snažíme nabízet možnosti, které minimalizují
+                                    rizika a poskytují stabilní a udržitelné
+                                    výnosy. Na základě našich hlubokých znalostí
+                                    a analýz trhu vám pomáháme činit
+                                    Czechinvestiční rozhodnutí, která jsou
+                                    informovaná, strategická a přizpůsobená
+                                    vašim individuálním potřebám a cílům.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="about-img">
+                            <img
+                                src="img/approach-img.jpg"
+                                class="img-fluid rounded h-100 w-100"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Counter -->
+        <div class="container-fluid counter bg-secondary py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="counter-item text-center">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-thumbs-up fa-2x"></i>
+                            </div>
+                            <div class="counter-counting my-3">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >1829</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                            <h4 class="text-white mb-0">Šťastní Klienti</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="counter-item text-center">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-car-alt fa-2x"></i>
+                            </div>
+                            <div class="counter-counting my-3">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >56</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                            <h4 class="text-white mb-0">Odborníci Týmu</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="counter-item text-center">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-building fa-2x"></i>
+                            </div>
+                            <div class="counter-counting my-3">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >127</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                            <h4 class="text-white mb-0">Dokončené Projekty</h4>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="counter-item text-center">
+                            <div class="counter-item-icon mx-auto">
+                                <i class="fas fa-clock fa-2x"></i>
+                            </div>
+                            <div class="counter-counting my-3">
+                                <span
+                                    class="text-white fs-2 fw-bold"
+                                    data-toggle="counter-up"
+                                    >589</span
+                                >
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                            <h4 class="text-white mb-0">Roky Zkušeností</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact Counter -->
+
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5 mt-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h1 class="display-5 text-capitalize mb-3">
+                        Odborníci
+                        <span class="text-primary"> na</span> Investování
+                    </h1>
+                    <p class="mb-0">
+                        Náš tým se skládá z vysoce kvalifikovaných odborníků,
+                        kteří mají rozsáhlé zkušenosti v oblasti investování.
+                        Naším cílem je poskytovat našim klientům nejlepší možné
+                        rady a strategie, které reflektují současné trendy a
+                        technologie. Každý člen našeho týmu je specialistou v
+                        určitých oblastech investování, což nám umožňuje
+                        nabídnout komplexní služby, které zahrnují
+                        Czechinvestiční rozhodnutí, potenciál blockchainu,
+                        potenciál kryptoměn, automatizované obchodování a
+                        bezrizikové investice.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-1.jpg"
+                                    class="img-fluid rounded w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Jan Novák</h4>
+                                <p>Investiční Poradce</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-2.jpg"
+                                    class="img-fluid rounded w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Petr Svoboda</h4>
+                                <p>Specialista na Blockchain</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-3.jpg"
+                                    class="img-fluid rounded w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Michal Dvořák</h4>
+                                <p>Expert na Kryptoměny</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-4.jpg"
+                                    class="img-fluid rounded w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Tomáš Horák</h4>
+                                <p>Odborník na obchodování</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Car Steps Start -->
+        <div class="container-fluid steps py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h1 class="display-5 text-capitalize text-white mb-3">
+                        Jednoduchý a Efektivní
+                        <span class="text-primary"> Proces Investování</span>
+                    </h1>
+                    <p class="mb-0 text-white">
+                        Investování s námi je přehledný a efektivní proces,
+                        který je navržen tak, aby vám poskytl maximální výsledky
+                        s minimálním rizikem. Naším cílem je zajistit, aby vaše
+                        investiční rozhodnutí byla informovaná a založená na
+                        důkladné analýze. Naše metodologie kombinuje
+                        Czechinvestiční rozhodnutí, potenciál blockchainu,
+                        potenciál kryptoměn, automatizované obchodování a
+                        bezrizikové investice, čímž vám poskytuje kompletní a
+                        přizpůsobené investiční řešení.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Analýza a Plánování</h4>
+                            <p class="mb-0">
+                                Prvním krokem je důkladná analýza vašich
+                                investičních cílů a potřeb. Na základě této
+                                analýzy vytvoříme strategii, která zahrnuje
+                                Czechinvestiční rozhodnutí a přizpůsobíme ji
+                                vašim finančním cílům. Naše plánování zahrnuje
+                                také posouzení potenciálu blockchainu a
+                                potenciálu kryptoměn pro maximální ziskovost a
+                                bezpečnost vašich investic.
+                            </p>
+                            <div class="setps-number">01.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Implementace Technologií</h4>
+                            <p class="mb-0">
+                                Po vytvoření strategie přistoupíme k
+                                implementaci moderních technologií, včetně
+                                automatizovaného obchodování. Využíváme
+                                pokročilé algoritmy a nástroje, které zajišťují
+                                efektivní správu vašich investic a optimalizaci
+                                obchodních rozhodnutí. Naše technologie jsou
+                                navrženy tak, aby minimalizovaly rizika a
+                                maximalizovaly výnosy.
+                            </p>
+                            <div class="setps-number">02.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Monitorování a Úpravy</h4>
+                            <p class="mb-0">
+                                V posledním kroku neustále monitorujeme výkon
+                                vašich investic a provádíme potřebné úpravy,
+                                abychom zajistili, že vaše investice zůstávají v
+                                souladu s vašimi cíli. Sledujeme tržní trendy a
+                                přizpůsobujeme strategii podle aktuálních
+                                podmínek, aby vaše investice byly stále bezpečné
+                                a výnosné. Naším cílem je poskytnout vám
+                                bezrizikové investice.
+                            </p>
+                            <div class="setps-number">03.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Car Steps End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h1 class="display-5 text-capitalize mb-3">
+                        Objevte Nejnovější
+                        <span class="text-primary">
+                            Trendy a Strategie v Investování</span
+                        >
+                    </h1>
+                    <p class="mb-0">
+                        Sledujte náš blog a zůstaňte informováni o nejnovějších
+                        trendech, strategiích a technologických inovacích v
+                        oblasti investování. Naše články vám přinášejí cenné
+                        informace a odborné analýzy týkající se
+                        Czechinvestičních rozhodnutí, potenciálu blockchainu,
+                        potenciálu kryptoměn, automatizovaného obchodování a
+                        bezrizikových investic. Přečtěte si naše nejnovější
+                        příspěvky a získejte znalosti, které vám pomohou lépe
+                        orientovat se v investičním světě.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">30 Dec 2023</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-user text-primary"
+                                        ></span
+                                        ><span class="ms-2">Martin.C</span>
+                                    </div>
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-comment-alt text-primary"
+                                        ></span
+                                        ><span class="ms-2">16 Comments</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">
+                                    Jak Úspěšně Činit Czechinvestiční Rozhodnutí
+                                    pro Dlouhodobý Růst</a
+                                >
+                                <p class="mb-3">
+                                    Tento článek se zaměřuje na klíčové faktory,
+                                    které ovlivňují Czechinvestiční rozhodnutí.
+                                    Naučte se, jak správně analyzovat trhy a
+                                    jaké strategie použít k dosažení optimálních
+                                    výsledků. Zjistěte, jak vám naše metody
+                                    pomohou přijímat informovaná rozhodnutí a
+                                    maximalizovat vaše investice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">17 Mai 2024</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-user text-primary"
+                                        ></span
+                                        ><span class="ms-2">Anna.T</span>
+                                    </div>
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-comment-alt text-primary"
+                                        ></span
+                                        ><span class="ms-2">72 Comments</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">
+                                    Využití Potenciálu Blockchainu v Moderním
+                                    Investování</a
+                                >
+                                <p class="mb-3">
+                                    V tomto příspěvku se podíváme na potenciál
+                                    blockchainu a jak může tato revoluční
+                                    technologie ovlivnit vaše investiční
+                                    strategie. Dozvíte se, jak blockchain
+                                    zvyšuje transparentnost a bezpečnost
+                                    transakcí a jak může být využit k vytváření
+                                    inovativních investičních příležitostí.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">27 Sep 2023</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-user text-primary"
+                                        ></span
+                                        ><span class="ms-2">Tom.C</span>
+                                    </div>
+                                    <div class="small">
+                                        <span
+                                            class="fa fa-comment-alt text-primary"
+                                        ></span
+                                        ><span class="ms-2">83 Comments</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">
+                                    Automatizované Obchodování: Budoucnost
+                                    Investování</a
+                                >
+                                <p class="mb-3">
+                                    Objevte, jak automatizované obchodování mění
+                                    svět investování. Tento článek prozkoumává
+                                    výhody použití pokročilých algoritmů a
+                                    technologií k optimalizaci obchodních
+                                    rozhodnutí a jak vám může automatizace
+                                    pomoci dosáhnout lepších výsledků s
+                                    minimálním úsilím.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Banner Start -->
+        <div
+            class="container-fluid banner pb-5 wow zoomInDown"
+            data-wow-delay="0.1s"
+        >
+            <div class="container pb-5">
+                <div class="banner-item rounded">
+                    <img
+                        src="img/banner-1.jpg"
+                        class="img-fluid rounded w-100"
+                        alt=""
+                    />
+                    <div class="banner-content">
+                        <h2 class="text-primary">
+                            Objevte Ideální Investiční Řešení na Míru
+                        </h2>
+                        <h1 class="text-white">Získejte Nabídku</h1>
+                        <p class="text-white">
+                            Chcete investovat, ale nejste si jisti, kde začít?
+                            Nechte nás pomoci!
+                        </p>
+                        <div class="banner-btn">
+                            <a
+                                href="contact.html"
+                                class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
+                                >Kontaktujte nás</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4">O Nás</h4>
+                                <p class="mb-3">
+                                    Děkujeme, že jste navštívili naše stránky! V
+                                    dolní části najdete důležité informace,
+                                    které vám mohou pomoci lépe se orientovat v
+                                    našich službách. Pokud máte jakékoli dotazy
+                                    nebo potřebujete další informace, neváhejte
+                                    nás kontaktovat.
+                                </p>
+                            </div>
+                            <div class="position-relative">
+                                <input
+                                    class="form-control rounded-pill w-100 py-3 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Zadejte svůj e-mail"
+                                    id="email"
+                                />
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                                    id="submit"
+                                    onclick="sendForm()"
+                                >
+                                    Přihlásit se
+                                </button>
+                            </div>
+                            <div
+                                id="result"
+                                style="color: red; font-size: 12px"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Rychlé Odkazy</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i> Domů</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> O
+                                nás</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Kontaktujte nás</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i> Zásady
+                                ochrany osobních údajů</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Podmínky použití</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Otevírací Hodiny</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">
+                                    Pondělí - Pátek:
+                                </h6>
+                                <p class="text-white mb-0">09:00 - 19:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Sobota:</h6>
+                                <p class="text-white mb-0">10:00 - 17:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Dovolená:</h6>
+                                <p class="text-white mb-0">Neděle - zavřeno</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Kontaktní Informace</h4>
+                            <a href="#"
+                                ><i class="fa fa-map-marker-alt me-2"></i>
+                                Českých bratří, 533 04 Sezemice, Česká
+                                republika</a
+                            >
+                            <a href="mailto:info@example.com"
+                                ><i class="fas fa-envelope me-2"></i>
+                                investice_růst@gmail.com</a
+                            >
+                            <a href="tel:+012 345 67890"
+                                ><i class="fas fa-phone me-2"></i> +420 739 044
+                                666</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-secondary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Souhlas s Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Tento web používá cookies k poskytování lepšího a
+                    relevantnějšího zážitku při procházení stránky.
+                    <a href="#">Zjistit více...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Souhlasím</button>
+                <button class="cookie-button" id="declineBtn">Odmítnout</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
